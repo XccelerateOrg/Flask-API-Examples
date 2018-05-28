@@ -4,9 +4,9 @@ itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
 Werkzeug==0.14.1
-# Note: this doesn't include tensorflow or tensorflow-gpu because the package you need to install
-# depends on your platform. It is assumed you have already installed tensorflow.
-falcon==1.2.0
+tensorflow==1.5.0
+tensorflow-tensorboard==1.5.0
+gunicorn==19.8.1
 inflect==0.2.5
 librosa==0.5.1
 matplotlib==2.0.2
