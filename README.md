@@ -6,10 +6,10 @@ to a remote virtual server such that users can use it as an application.
 ## Technologies used
 1. [Flask](http://flask.pocoo.org/) Micro-framework for serving the application itself.
 2. [Gunicorn](http://gunicorn.org/) Standard WSGI-compatible web server.
-3. Tensorflow(https://www.tensorflow.org/) The famous deep learning framework.
+3. [Tensorflow](https://www.tensorflow.org/) The famous deep learning framework.
 
 ## Instructions
-1. Install Python
+1. Install Python 3 using [pyenv](https://github.com/pyenv/pyenv). You can make use of the [pyenv-installer](https://github.com/pyenv/pyenv-installer) to install **pyenv** effortlessly. **This application requires Python 3!**. It is assumed that every instructions are based on Python 3 instead of Python 2 without any mentioning.
 2. Run the following command:
 
 ```
